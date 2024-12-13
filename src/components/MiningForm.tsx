@@ -10,11 +10,10 @@ const MiningForm: React.FC = () => {
 
   const connectWallet = () => {
     if (window.Telegram?.WebApp) {
-      // Ensure the wallet address is a string
       const walletAddress = window.Telegram.WebApp.initDataUnsafe?.user?.id?.toString() || '';
       setWalletAddress(walletAddress);
     } else {
-      alert('Telegram WebApp is not available.');
+      alert('Telegram WebApp is not available. Please open this app in Telegram.');
     }
   };
 

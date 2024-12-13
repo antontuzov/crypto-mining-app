@@ -4,6 +4,11 @@
 
 /* Dark mode styles */
 .dark {
-  background-color: #1a202c;
+  background-color: #ffffff;
   color: #ffffff;
+}
+
+/* Gradient background */
+body {
+  background: linear-gradient(135deg, #499ecd, #4f51a5, #3ddbfb);
 }

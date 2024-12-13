@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-blue-500 p-4 text-white">
+    <nav className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-4 text-white shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-lg font-bold">Crypto Mining App</div>
         <ul className="flex space-x-4">
