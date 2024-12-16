@@ -48,7 +48,7 @@ const GameTab: React.FC = () => {
           onStopSpinning={handleStopSpinning}
           backgroundColors={['#3e3e3e', '#df3428']}
           textColors={['#ffffff']}
-          outerBorderColor="#000000"
+          outerBorderColor="#111111"
           outerBorderWidth={5}
           innerRadius={10}
           innerBorderColor="#000000"

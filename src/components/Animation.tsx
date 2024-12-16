@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
-import animationData from '../animations/animation.json'; // Replace with your JSON animation file
+import animationData from '../animations/Euro_Wallet.mp4.lottie.json'; // Replace with your JSON animation file
 
 const Animation: React.FC = () => {
   const animationContainer = useRef<HTMLDivElement>(null);

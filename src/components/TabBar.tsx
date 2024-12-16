@@ -1,5 +1,4 @@
 import React from 'react';
-import MiniIcon from '../icons/MiniIcon';
 import TopIcon from '../icons/TopIcon';
 import TaskIcon from '../icons/TaskIcon';
 import EarnIcon from '../icons/EarnIcon';
